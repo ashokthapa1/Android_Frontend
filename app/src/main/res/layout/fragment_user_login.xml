@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.UserLogin">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/classic" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/fakeOpactiy1"-->
+    <!--android:background="#CF545555"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <ImageView
+        android:id="@+id/ivllogo"
+        android:layout_width="164dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/ivllogo"
+        android:hint="Username...." />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="#72000000"
+        android:layout_below="@+id/etUsername"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:hint="Password...." />
+
+    <Button
+        android:id="@+id/btnLoginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_margin="20dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textColorHint="#fff"
+        android:text="Login"/>
+
+
+</RelativeLayout>

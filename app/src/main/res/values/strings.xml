@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HospitalSearchSystem</string>
+
+    <string name="search_prompt">Search by ...</string>
+
+    <string-array name="search_arrays">
+        <item>Hospital Name</item>
+        <item>Diseases</item>
+        <item>Location</item>
+    </string-array>
+
+
+    <string-array name="edit_arrays">
+        <item>Name</item>
+        <item>Address</item>
+        <item>Rating</item>
+        <item>Phone</item>
+        <item>Diseases</item>
+        <item>Doctors</item>
+        <item>Nears</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

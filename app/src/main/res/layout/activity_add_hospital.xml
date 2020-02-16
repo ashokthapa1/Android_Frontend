@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addHospital">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/classic"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Hospital"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#4B000000"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtHead"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:background="#5E000000"
+        android:src="@drawable/add"
+        />
+
+
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/add"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Name...." />
+
+    <EditText
+        android:id="@+id/addAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/addName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Address...." />
+
+
+    <EditText
+        android:id="@+id/addRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/addAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Rating....." />
+
+    <EditText
+        android:id="@+id/addPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/addRating"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Phone....." />
+
+    <EditText
+        android:id="@+id/addDiseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/addPhone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Diseases...." />
+
+    <EditText
+        android:id="@+id/addDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/addDiseases"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Doctors...." />
+
+    <EditText
+        android:id="@+id/addNears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/addDoctors"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:hint="Nearest Hospitals..." />
+
+    <Button
+        android:id="@+id/btnAadd"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="#5E000000"
+        android:text="Add"
+        android:layout_below="@+id/addNears"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnAback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4B000000"
+        android:text=" Back !! "
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnAadd"
+        android:layout_gravity="center"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

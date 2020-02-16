@@ -1,0 +1,112 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.Signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/classic" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/fakeOpactiy1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#61000000" />-->
+
+    <ImageView
+        android:id="@+id/ivslogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/register" />
+
+    <EditText
+        android:id="@+id/etUsername1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:layout_below="@+id/ivslogo"
+        android:background="#72000000"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:hint="Username...." />
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/etUsername1"
+        android:hint="FullName..." />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/etFullName"
+        android:hint="Email..." />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/etEmail"
+        android:hint="Your Address" />
+
+    <EditText
+        android:id="@+id/etPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/etAddress"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:hint="Password...." />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword1"
+        android:layout_margin="20dp"
+        android:background="#72000000"
+        android:textColor="#fff"
+        android:textSize="14dp"
+        android:textColorHint="#fff"
+        android:text="Register"/>
+
+    </RelativeLayout>
+
+</ScrollView>
